@@ -1,0 +1,54 @@
+.containerOne {
+  background: url('../../img/pexels-eberhard-grossgasteiger-640781.jpg') bottom no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.containerForm {
+  text-align: center;
+}
+
+.containerInput {
+  width: 300px;
+  height: 30px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.inputStyle {
+  width: 300px;
+  height: 28px;
+  padding: 3px;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+}
+
+.inputStyle:focus {
+  outline: 1px solid #d3d3d3;
+}
+
+.image-grid-container {
+  text-align: center;
+}
+
+.conteiner-imgs {
+  width: 20%;
+  display: inline-block;
+  align-items: flex-start;
+  vertical-align: top;
+  margin: 20px;
+}
+
+.img-loop {
+  width: 100%;
+  display: block;
+  margin: 30px 0px;
+  border: 1px solid #242424;
+}
+
+.img-loop:hover {
+  border: 1px solid white;
+}

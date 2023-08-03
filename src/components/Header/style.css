@@ -1,0 +1,32 @@
+.containerHeader {
+  border-bottom: 1px solid #2b2b2b;
+  box-shadow: 0px 3px 20px #2b2b2b;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav, li {
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 15px;
+  font-size: 16px;
+}
+
+.brand {
+  margin-left: 10px;
+}
+
+.menuMain {
+  margin-right: 10px;
+}
