@@ -1,5 +1,5 @@
 .containerOne {
-  background: url('../../img/pexels-eberhard-grossgasteiger-640781.jpg') bottom no-repeat;
+  background: url('../../components/image/img/pexels-eberhard-grossgasteiger-640781.jpg') bottom no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const MeuComponente = ({ imagens }) => {
   const dividirEmGrupos = (array, tamanho) => {
@@ -16,8 +17,10 @@ const MeuComponente = ({ imagens }) => {
       {gruposDeImagens.map((grupo, index) => (
         <div key={index} className='conteiner-imgs'>
           {grupo.map((url, i) => (
-            <img key={i} src={url} alt={`Imagem ${i}`} className='img-loop' />
-          ))}
+            <Link key={url} to={`imagem/${url.id}`}>
+              <img key={i} src={url.url} alt={`imagem ${i}`} className='img-loop' />
+            </Link>
+          ))} 
         </div>
       ))}
     </div>

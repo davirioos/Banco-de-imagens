@@ -1,0 +1,29 @@
+.conteiner-download {
+  width: 60%;
+  text-align: center;
+  border: 1px solid #000;
+  padding: 50px;
+  margin: 5% auto;
+}
+
+.imagens-download {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.button-download {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+.button-download:hover {
+  background-color: #fff;
+  color: #3498db;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}

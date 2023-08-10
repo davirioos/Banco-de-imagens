@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import Logomarca from '../../img/Logomarca.png'
+import Logomarca from '../image/img/Logomarca.png'
 import './style.css';
 
 export default function header (){
