@@ -11,8 +11,7 @@ button {
   border: none;
   color: #fff;
   font-weight: 600;
-  background: #121212;
-  box-shadow: -5px 5px 10px #121212;
+  background-color: #3498db;
   cursor: pointer;
   transition: 1.0s;
 }
@@ -43,4 +42,10 @@ button:hover {
   padding: 5px;
   border-radius: 10px;
 
+}
+
+@media (max-width:800px) {
+  .form {
+    width: 65%;
+  }
 }

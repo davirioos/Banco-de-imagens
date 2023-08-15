@@ -30,3 +30,17 @@ a {
 .menuMain {
   margin-right: 10px;
 }
+
+@media (max-width:800px) {
+  .containerHeader {
+    padding: 15px 5px;
+  }
+
+  a {
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  .menuMain {
+    margin-right: 0px;
+  }
+}

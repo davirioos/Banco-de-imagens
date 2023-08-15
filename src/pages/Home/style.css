@@ -52,3 +52,15 @@
 .img-loop:hover {
   border: 1px solid white;
 }
+
+@media (max-width:800px) {
+  .conteiner-imgs {
+    display: block;
+    margin: 5px auto;
+    width: 70%;
+  }
+  .img-loop {
+    margin: 5px 0px;
+    border: 1px solid #242424;
+  }
+}
